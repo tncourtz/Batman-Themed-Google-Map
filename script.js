@@ -11,7 +11,7 @@ function initMap() {
 	//marker images'
 	const signal = "https://github.com/tncourtz/Custom-Google-Map-Theme/blob/main/signal.png?raw=true";
 	const gotham = "https://github.com/tncourtz/Custom-Google-Map-Theme/blob/main/gotham.png?raw=true";
-	const cave = "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png";
+	const cave = "https://github.com/tncourtz/Custom-Google-Map-Theme/blob/main/cave.png?raw=true";
    
 
     //The Marker Postions
@@ -25,8 +25,8 @@ function initMap() {
 			-33.90363,
             18.420529,
 			gotham,
-			30,
-			40,
+			50,
+			50,
 		],
 		[
 			'Bat Signal',
@@ -41,8 +41,8 @@ function initMap() {
 			-33.957652,
 			18.4611991,
 			cave,
-			30,
-			40,
+			50,
+			50,
 		],
 	];
 
