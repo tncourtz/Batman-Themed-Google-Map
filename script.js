@@ -9,7 +9,7 @@ function initMap() {
 	});
 
 	//marker images'
-	const signal = "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png";
+	const signal = "https://github.com/tncourtz/Custom-Google-Map-Theme/blob/main/signal.svg";
 	const gotham = "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png";
 	const cave = "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png";
    
