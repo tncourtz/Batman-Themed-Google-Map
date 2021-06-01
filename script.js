@@ -9,8 +9,8 @@ function initMap() {
 	});
 
 	//marker images'
-	const signal = "https://github.com/tncourtz/Custom-Google-Map-Theme/blob/main/signal.svg";
-	const gotham = "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png";
+	const signal = "https://github.com/tncourtz/Custom-Google-Map-Theme/blob/main/signal.png?raw=true";
+	const gotham = "https://github.com/tncourtz/Custom-Google-Map-Theme/blob/main/gotham.png?raw=true";
 	const cave = "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png";
    
 
@@ -25,18 +25,24 @@ function initMap() {
 			-33.90363,
             18.420529,
 			gotham,
+			30,
+			40,
 		],
 		[
 			'Bat Signal',
 			-33.9668233,
 			18.4080533,
 			signal,
+			50,
+			50,
 		],
 		[
 			'Bat Cave',
 			-33.957652,
 			18.4611991,
 			cave,
+			30,
+			40,
 		],
 	];
 
@@ -49,7 +55,7 @@ function initMap() {
 			title: currMarker[0],
 			icon: {
 				url: currMarker[3],
-				// scaledSize: new google.maps.Size(currMarker[4], currMarker[5]),
+				scaledSize: new google.maps.Size(currMarker[4], currMarker[5]),
 			},
 			animation: google.maps.Animation.DROP,
 		});
