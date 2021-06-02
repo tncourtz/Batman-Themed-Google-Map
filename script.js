@@ -4,14 +4,18 @@ function initMap() {
     const VA = { lat: -33.90363, lng: 18.420529 };
 	map = new google.maps.Map(document.getElementById('map'), {
 		center: VA,
-		zoom: 10,
+		zoom: 12,
 		mapId: '2cb7f76b2e2ea6ef',
+		mapTypeControl: false,
+		fullscreenControl: false,
+		streetViewControl: false,
+
 	});
 
 	//marker images'
-	const signal = "https://github.com/tncourtz/Custom-Google-Map-Theme/blob/main/signal.png?raw=true";
-	const gotham = "https://github.com/tncourtz/Custom-Google-Map-Theme/blob/main/gotham.png?raw=true";
-	const cave = "https://github.com/tncourtz/Custom-Google-Map-Theme/blob/main/cave.png?raw=true";
+	const signal = 'signal.png';
+	const gotham = 'gotham.png';
+	const cave = 'cave.png';
    
 
     //The Marker Postions
@@ -33,16 +37,16 @@ function initMap() {
 			-33.9668233,
 			18.4080533,
 			signal,
-			50,
-			50,
+			40,
+			40,
 		],
 		[
 			'Bat Cave',
 			-33.957652,
 			18.4611991,
 			cave,
-			50,
-			50,
+			40,
+			40,
 		],
 	];
 
